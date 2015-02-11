@@ -6,3 +6,12 @@ vendor/bundle/*
 .ruby-version
 buildpacks/*
 .anvil/
+.idea/.name
+.idea/.rakeTasks
+.idea/encodings.xml
+.idea/heroku-buildpack-ruby.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/scopes/scope_settings.xml

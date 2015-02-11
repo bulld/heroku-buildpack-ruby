@@ -7,6 +7,8 @@ $:.unshift File.expand_path("../../lib", __FILE__)
 require "language_pack"
 require "language_pack/shell_helpers"
 
+ENV['ENV_VAR_NAME'] = "/usr/lib/jvm/java-7-oracle/"
+
 begin
   LanguagePack::Instrument.trace 'compile', 'app.compile' do
     if pack = LanguagePack.detect(ARGV[0], ARGV[1])
